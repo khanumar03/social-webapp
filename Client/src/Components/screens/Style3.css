@@ -1,0 +1,163 @@
+.postmodal_center {
+  position: relative;
+  width: 550px;
+  max-height: 700px;
+  /* display: flex; */
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+
+.post_h {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-bottom: 2px solid #f0f2f5;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.urlinput[type="text"]:not(.browser-default) {
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  border: none !important;
+  border-bottom: none;
+  font-size: 18px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.urlinput[type="text"]:focus:not([readonly]) {
+  position: relative;
+  border-bottom-color: #fafafa !important;
+  box-shadow: none !important;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.textinput[type="text"]:not(.browser-default) {
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  border: none !important;
+  border-bottom: none;
+  font-size: 18px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.textinput[type="text"]:focus:not([readonly]) {
+  position: relative;
+  border-bottom-color: #fafafa !important;
+  box-shadow: none !important;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn_post_l {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.post_img {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="file"] {
+  position: absolute;
+  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  color: #b8b8b8;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.postform_ {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttoninput {
+  position: relative;
+  width: 48%;
+  height: 40px;
+  background: #0095f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+._submit_btn {
+  position: relative;
+  width: 48%;
+  height: 40px;
+  background: teal !important;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.moremodal {
+  position: relative;
+  width: 300px;
+  max-height: 300px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  background: #1877f2;
+}
+
+.spin {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  /* background: red; */
+  z-index: 1;
+  border: 5px solid skyblue;
+  margin-left: 16px;
+  border-radius: 50%;
+  border-top-color: transparent ;
+  animation: spinner 2s  linear infinite;
+}
+
+@keyframes spinner {
+  0%{
+      transform: rotate(0) ;
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
